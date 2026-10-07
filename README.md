@@ -24,6 +24,6 @@ Document API endpoints in README
 | PUT | /issues/{id}/status | Update issue status |
 
 ## Team Members
-1. Sagarjit Singh Batish
-2. Prikshit Goel
-3. Parleen Cheema
+1. Sagarjit Singh Batish(Backend+Database)
+2. Prikshit Goel(Frontend)
+3. Parleen Cheema(Intergration+Testing)
