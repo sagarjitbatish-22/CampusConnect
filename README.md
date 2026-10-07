@@ -23,7 +23,7 @@ Document API endpoints in README
 | GET | /issues/{id} | Get issue details |
 | PUT | /issues/{id}/status | Update issue status |
 
-##Team Members
+## Team Members
 1. Sagarjit Singh Batish
 2. Prikshit Goel
 3. Parleen Cheema
