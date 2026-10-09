@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Issue</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Report an Issue</h1>
+
+        <form id="issueForm">
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Issue Title"
+                required
+            >
+            <br>
+
+            <textarea
+                id="description"
+                placeholder="Describe the problem"
+                required
+            ></textarea>
+            <br>
+
+            <select id="category" required>
+
+                <option value="">
+                    Select Category
+                </option>
+                <br>
+
+                <option value="Classroom">
+                    Classroom
+                </option>
+
+                <option value="Campus">
+                    Campus
+                </option>
+
+                <option value="Lost & Found">
+                    Lost & Found
+                </option>
+
+                <option value="General">
+                    General
+                </option>
+
+            </select>
+            <br>
+
+            <button type="submit">
+                Submit Issue
+            </button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
