@@ -1,6 +1,49 @@
-Issue Title
-Description
-Category
-Status
-Submitted by
-Date
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusConnect - Issue Details</title>
+
+    <link rel="stylesheet" href="2_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="issue.css">
+</head>
+
+<body>
+
+    <div class="issue-container" id="issueDetail">
+
+        <h1>Issue Details</h1>
+
+        <h2 class="issue-title" id="issueTitle">Loading...</h2>
+
+        <span class="category" id="issueCategory"></span>
+        <span class="status" id="issueStatus"></span>
+
+        <div class="issue-description" id="issueDescription"></div>
+
+        <p class="issue-info">Submitted by: <span id="issueBy"></span></p>
+        <p class="issue-info">Date: <span id="issueDate"></span></p>
+
+        <label for="statusSelect">Update status:</label>
+        <select id="statusSelect">
+            <option value="Open">Open</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Resolved">Resolved</option>
+        </select>
+
+        <div class="issue-buttons">
+            <button type="button" id="updateStatusBtn">Update Status</button>
+            <a href="dashboard.html"><button type="button" class="back-button">Back to Dashboard</button></a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

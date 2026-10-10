@@ -22,6 +22,7 @@
                 type="text"
                 id="title"
                 placeholder="Issue Title"
+                maxlength="100"
                 required
             >
             <br>
@@ -29,6 +30,7 @@
             <textarea
                 id="description"
                 placeholder="Describe the problem"
+                maxlength="1000"
                 required
             ></textarea>
             <br>
@@ -52,8 +54,16 @@
                     Lost & Found
                 </option>
 
-                <option value="General">
-                    General
+                <option value="Library">
+                    Library
+                </option>
+
+                <option value="Lab">
+                    Lab
+                </option>
+
+                <option value="Other">
+                    Other
                 </option>
 
             </select>
