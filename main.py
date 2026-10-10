@@ -203,7 +203,7 @@ def get_issues(
     if category:
         query += " AND issues.category = ?"
         params.append(category)
-    query += " ORDER BY issues.id D ESC"
+    query += " ORDER BY issues.id DESC"
     return [dict(r) for r in db.execute(query, params).fetchall()]
 
 

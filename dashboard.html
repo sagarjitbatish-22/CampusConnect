@@ -21,6 +21,7 @@
                 <a href="dashboard.html">Dashboard</a>
                 <a href="create-issue.html">Report Issue</a>
                 <a href="profile.html">Profile</a>
+                <a href="login.html" id="logoutLink">Logout</a>
             </nav>
         </header>
 
@@ -28,49 +29,16 @@
 
             <h2>Campus Issues</h2>
 
+            <!-- script.js fills this with real issues from the database -->
             <div id="issuesContainer">
-
-                <div class="issue-card">
-
-                    <h3>Fan not working</h3>
-
-                    <p>
-                        The fan in Room is not working.
-                    </p>
-
-                    <span class="category">
-                        Classroom
-                    </span>
-
-                    <span class="status open">
-                        Open
-                    </span>
-
-                </div>
-
-                <div class="issue-card">
-
-                    <h3>Wi-Fi not working</h3>
-
-                    <p>
-                        Wi-Fi is not working in the library.
-                    </p>
-
-                    <span class="category">
-                        Campus
-                    </span>
-
-                    <span class="status progress">
-                        In Progress
-                    </span>
-
-                </div>
-
+                <p>Loading issues...</p>
             </div>
 
         </main>
 
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
